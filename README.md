@@ -4,7 +4,7 @@
 
 ##Live Version 
 
-  The live version is available [here](http://mrriky54.github.io/blog)
+  The live version is available [here](http://mrriky54hd.altervista.org/blog)
 
 ##License
   
