@@ -6,11 +6,9 @@
   </head>
   <body>
 
-    <?php include "menu.html"; ?>
-
     <?php include "dot.html"; ?>
 
-    <div class="container">
+    <?php include "menu.html"; ?>
 
       <div class="article">
         <h1 class="article_title">Lorem Ipsum</h1>

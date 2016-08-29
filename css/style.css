@@ -7,6 +7,9 @@
 *::selection {
   color: orangered;
 }
+html {
+  box-shadow: 0px 20px 30px darkgrey inset;
+}
 body {
   background-color: lightgrey;
 }
@@ -28,8 +31,15 @@ input {
 .menu {
   background-color: orangered;
   width: auto;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  box-shadow: 0px 10px 20px darkgrey;
+  border-radius: 5px;
 }
 .menu h1 {
   color: white;
@@ -55,7 +65,8 @@ input {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 10px;
-  box-shadow: 10px 10px 5px darkgrey;
+  box-shadow: 0px 10px 20px darkgrey;
+  border-radius: 5px;
 }
 .article_text {
   margin-left: 10px;
@@ -77,7 +88,8 @@ input {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 10px;
-  box-shadow: 10px 10px 5px darkgrey;
+  box-shadow: 0px 10px 20px darkgrey;
+  border-radius: 5px;
 }
 .footer p {
   margin-left: 10px;
@@ -90,19 +102,21 @@ input {
   position: fixed;
 }
 .bar_1 {
-  width: 3px;
+  width: 5px;
   height: 30px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 .bar_2 {
   width: 30px;
-  height: 3px;
+  height: 5px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
   margin-top: -17px;
+  border-radius: 10px;
 }
 .dot:hover {
   animation-name: rotate;
@@ -125,6 +139,7 @@ input {
 }
 .dot {
   margin-bottom: 0px;
+  right: 0px;
 }
 .plus {
   padding-top: 20%;
@@ -158,11 +173,12 @@ input {
 .hyde {
   display: none;
 }
-.insert_title {
-  width: 100%;
+.button_container {
+  position: absolute;
+  bottom: 60px;
 }
-.insert_text {
-  width: 100%;
+#social {
+  right: 60px;
 }
 
 /* Keyframes */
