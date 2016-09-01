@@ -1,6 +1,6 @@
 # Blog Template
 
-  This Repo is about a template for blogs, built with HTML, PHP, JS and CSS. I home you like it.
+  This Repo is about a template for blogs, built with HTML, PHP, JS and CSS. I hope you like it.
 
 ##Live Version 
 
