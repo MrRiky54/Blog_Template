@@ -2,10 +2,10 @@
 
   This Repo is about a template for blogs, built with HTML, PHP, JS and CSS. I hope you like it.
 
-##Live Version 
+## Live Version 
 
   The live version is available [here](http://mrriky54hd.altervista.org/blog)
 
-##License
+## License
   
   This work is licensed with the GNU GPL v3 License.
